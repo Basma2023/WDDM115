@@ -1,25 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>This is new commit</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>    
+    <!-- CSS for setting the background color -->
+    <style>
+        body {
+            background-color: #b586e5; /* I can replace this color code with my preferred background color */
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World! – Basma</h1>
-    <p> Hi there My name is Basma . I am an international student studying at Humber college. I am studying web design and development 
-        . In this course ,I am learning about how to design a website and program it . I am learning html , CSS , Javascript in this program . 
-        This program has other courses in which I am getting knowledge about adobe illustrator , adobe XD etc . My hobbies are cooking , I like to travel.</p>
-     <p> You can reach Basma through:</p>
-     <ul>
-        <li><a href="https://www.linkedin.com/in/basma-sayyad/">linkedin</a></li>
-        <li><a href="basma.sayyad@gmail.com">Email</a></li>
-        <li><a href="5647378473383">Phone</a></li>
-      </ul>
-        <img src="C:\Users\Basma\Desktop\WDDM 115 Activity\html\myself.jpg" title="BasmaTitle" width="200px">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/72mLOepVSBk?si=sdmRDfzQshZ4fyzO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                        
-    <script>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+    </header>
+    <!-- Image of myself -->
+    <img src="C:\Users\Basma\OneDrive\Desktop\WDDM_115_Activity\html\image\myself.jpg" title="BasmaTitle" width="200px">
+    <nav>
+        <!-- Navigation links to different sections -->
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <!-- Introduction about myself -->
+        <h2>About Me</h2>
+        <p>I am Basma, and I am a passionate web developer with a deep love for designing websites. I am currently pursuing a comprehensive education in web design and development, with a strong foundation in the field. Additionally, I have enriched my knowledge by studying cloud computing at Humber College. With a keen eye for detail and a commitment to creating user-friendly and visually appealing websites, I am dedicated to delivering outstanding web experiences to users and clients alike.</p>
+    </section>
+
+    <section id="experience">
+        <!-- Table displaying my work experience -->
+        <h2>Experience</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Company</th>
+                    <th>Position</th>
+                    <th>Duration</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows with details of my work experience -->
+                <tr>
+                    <td>IBM</td>
+                    <td>Software Engineer</td>
+                    <td>2018 - 2020</td>
+                </tr>
+                <tr>
+                    <td>CSC</td>
+                    <td>Web Developer</td>
+                    <td>2016 - 2018</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="education">
+        <!-- List of my educational qualifications -->
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor of Engineering - Jamia Millia Islamia</li>
+            <li>Cloud Computing Certification - Humber College</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <!-- Links to my portfolio projects -->
+        <h2>Portfolio</h2>
+        <ul>
+            <li><a href="project1.html">Project 1</a></li>
+            <li><a href="project2.html">Project 2</a></li>
+            <li><a href="project3.html">Project 3</a></li>
+        </ul>
+        <section id="skills">
+            <!-- List of web development skills -->
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+            </ul>
+        </section>
         
-        console.log('This is a testing1 log');
-    </script>
+        <!-- Button linking to my recent work -->
+        <button><a href="recent-work.html">Recent Work</a></button>
+    </section>
+
+    <section id="contact">
+        <!-- Contact information -->
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me:</p>
+        <ul>
+            <!-- Links to my LinkedIn profile and email -->
+            <li><a href="https://www.linkedin.com/in/basma-sayyad/">LinkedIn</a></li>
+            <li><a href="mailto:basma.sayyad@gmail.com">Email</a></li>
+        </ul>
+    </section>
+ 
+    <footer>
+        <!-- Copyright information -->
+        <p>&copy; 2023 Basma Portfolio</p>
+    </footer>
 </body>
 </html>
