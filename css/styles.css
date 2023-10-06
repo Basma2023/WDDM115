@@ -18,3 +18,13 @@ nav {
     padding: 5px;
     border-radius: 5px;
 }
+
+nav .navbar-brand.logo{
+    display: inline-block;
+}
+
+nav .navbar-brand.logo img{
+    width: 100%;
+    max-width: 150px;
+
+}
