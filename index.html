@@ -4,20 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>    
-    <!-- CSS for setting the background color -->
-    <style>
-        body {
-            background-color: #b586e5; /* I can replace this color code with my preferred background color */
-        }
-    </style>
+    <link rel="stylesheet" href="./css/styles.css">
+
 </head>
 <body>
     <header>
         <h1>Welcome to My Portfolio</h1>
     </header>
-    <!-- Image of myself -->
-    <img src="C:\Users\Basma\OneDrive\Desktop\WDDM_115_Activity\html\image\myself.jpg" title="BasmaTitle" width="200px">
+
+
     <nav>
+        <a href="index.html" class="navbar-brand brand logo"><img src="./images/logo.svg"></a>
         <!-- Navigation links to different sections -->
         <ul>
             <li><a href="#about">About Me</a></li>
@@ -25,13 +22,18 @@
             <li><a href="#education">Education</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
-        </ul>
+        </ul> 
     </nav>
 
     <section id="about">
         <!-- Introduction about myself -->
         <h2>About Me</h2>
         <p>I am Basma, and I am a passionate web developer with a deep love for designing websites. I am currently pursuing a comprehensive education in web design and development, with a strong foundation in the field. Additionally, I have enriched my knowledge by studying cloud computing at Humber College. With a keen eye for detail and a commitment to creating user-friendly and visually appealing websites, I am dedicated to delivering outstanding web experiences to users and clients alike.</p>
+        <!--Adding Css Buttons Below-->
+        <button class="button-1" role="button">Button 1</button>
+        <button id="duplicateMe" class="button-6" role="button" onclick="duplicateMe()">Click To Copy</button>
+        <!-- Below are some elements that will be added to the site -->
+        <div class="main-div"><p>This is a paragraph element used to convey important information</p></div>
     </section>
 
     <section id="experience">
@@ -129,7 +131,9 @@
                 </form>
             </section>
             
-            
+                
+    <!-- Image of myself -->
+    <img src="./images/myself.jpg" title="BasmaTitle" width="200px">
             
             
     <!-- List of web development skills -->
@@ -162,5 +166,7 @@
         <!-- Copyright information -->
         <p>&copy; 2023 Basma Portfolio</p>
     </footer>
+    <!--  We're adding the external Javascript here so that it doesn't block any of the other elements when they're loading-->
+    <script src="./js/main.js"></script>
 </body>
 </html>
