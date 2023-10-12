@@ -3,18 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>    
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="./css/styles.css">
-
 </head>
 <body>
     <header>
         <h1>Welcome to My Portfolio</h1>
     </header>
 
-
     <nav>
-        <a href="index.html" class="navbar-brand brand logo"><img src="./images/logo.svg"></a>
+        <a href="index.html" class="navbar-brand logo"><img src="./images/logo.svg" alt="Logo"></a>
         <!-- Navigation links to different sections -->
         <ul>
             <li><a href="#about">About Me</a></li>
@@ -22,14 +20,14 @@
             <li><a href="#education">Education</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#contact">Contact</a></li>
-        </ul> 
+        </ul>
     </nav>
 
     <section id="about">
         <!-- Introduction about myself -->
         <h2>About Me</h2>
         <p>I am Basma, and I am a passionate web developer with a deep love for designing websites. I am currently pursuing a comprehensive education in web design and development, with a strong foundation in the field. Additionally, I have enriched my knowledge by studying cloud computing at Humber College. With a keen eye for detail and a commitment to creating user-friendly and visually appealing websites, I am dedicated to delivering outstanding web experiences to users and clients alike.</p>
-        <!--Adding Css Buttons Below-->
+        <!-- Adding CSS Buttons Below -->
         <button class="button-1" role="button">Button 1</button>
         <button id="duplicateMe" class="button-6" role="button" onclick="duplicateMe()">Click To Copy</button>
         <!-- Below are some elements that will be added to the site -->
@@ -81,92 +79,38 @@
             <li><a href="project3.html">Project 3</a></li>
         </ul>
         <section id="skills">
-            <section id="projectsss">
-                <!-- Projects section with project details -->
-                <h2>Projects</h2>
-                <div class="project">
-                    <h3>Project 1: Personal Blog</h3>
-                    <p>A personal blog website where I share my thoughts and experiences.</p>
-                    <a href="project1.html">Learn More</a>
-                </div>
-                <div class="project">
-                    <h3>Project 2: E-commerce Website</h3>
-                    <p>An online store for buying and selling various products.</p>
-                    <a href="project2.html">Learn More</a>
-                </div>
-            </section>
-            <section id="services">
-                <!-- Services section with descriptions -->
-                <h2>Services</h2>
-                <ul>
-                    <li>Web Design</li>
-                    <li>Front-end Development</li>
-                    <li>Responsive Web Development</li>
-                    <li>Website Maintenance</li>
-                </ul>
-            </section>
-            <section id="testimonials">
-                <!-- Testimonials section with example testimonials -->
-                <h2>Testimonials</h2>
-                <div class="testimonial">
-                    <p>"Basma is a talented and dedicated web developer. Her attention to detail and creative approach make her an excellent choice for any project."</p>
-                    <p>- John Doe, CEO of XYZ Company</p>
-                </div>
-                <div class="testimonial">
-                    <p>"I was impressed by Basma's web development skills and her ability to deliver projects on time. Highly recommended!"</p>
-                    <p>- Jane Smith, Web Designer</p>
-                </div>
-            </section>
-            <section id="contact-form">
-                <!-- Contact form section -->
-                <h2>Contact Me</h2>
-                <form>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                    <button type="submit">Send</button>
-                </form>
-            </section>
-            
-                
-    <!-- Image of myself -->
-    <img src="./images/myself.jpg" title="BasmaTitle" width="200px">
-            
-            
-    <!-- List of web development skills -->
-    <h2>Skills</h2>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Responsive Design</li>
-    </ul>
-</section>
-
-
-        <!-- Button linking to my recent work -->
-        <button><a href="recent-work.html">Recent Work</a></button>
-    </section>
-
-    <section id="contact">
-        <!-- Contact information -->
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me:</p>
-        <ul>
-            <!-- Links to my LinkedIn profile and email -->
-            <li><a href="https://www.linkedin.com/in/basma-sayyad/">LinkedIn</a></li>
-            <li><a href="mailto:basma.sayyad@gmail.com">Email</a></li>
-        </ul>
-    </section>
- 
-    <footer>
-        <!-- Copyright information -->
-        <p>&copy; 2023 Basma Portfolio</p>
-    </footer>
-    <!--  We're adding the external Javascript here so that it doesn't block any of the other elements when they're loading-->
-    <script src="./js/main.js"></script>
-</body>
-</html>
+            <!-- Projects section with project details -->
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project 1: Personal Blog</h3>
+                <p>A personal blog website where I share my thoughts and experiences.</p>
+                <a href="project1.html">Learn More</a>
+            </div>
+            <div class="project">
+                <h3>Project 2: E-commerce Website</h3>
+                <p>An online store for buying and selling various products.</p>
+                <a href="project2.html">Learn More</a>
+            </div>
+        </section>
+        <section id="services">
+            <!-- Services section with descriptions -->
+            <h2>Services</h2>
+            <ul>
+                <li>Web Design</li>
+                <li>Front-end Development</li>
+                <li>Responsive Web Development</li>
+                <li>Website Maintenance</li>
+            </ul>
+        </section>
+        <section id="testimonials">
+            <!-- Testimonials section with example testimonials -->
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"Basma is a talented and dedicated web developer. Her attention to detail and creative approach make her an excellent choice for any project."</p>
+                <p>- John Doe, CEO of XYZ Company</p>
+            </div>
+            <div class="testimonial">
+                <p>"I was impressed by Basma's web development skills and her ability to deliver projects on time. Highly recommended!"</p>
+                <p>- Jane Smith, Web Designer</p>
+            </div>
+        </section
